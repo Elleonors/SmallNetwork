@@ -11,7 +11,7 @@ Behold....
 This is my first network. to see the assignment, feel free to look here :
 [assignment](./Assets/Build_simple_network.md)
 
-It includes : 
+It includes :  
 * Setting up the hardware
 * Setting up the hosts parameters
 * Setting up the servers parameters (*Bonus*)
