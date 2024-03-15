@@ -6,7 +6,7 @@ Behold....
 
 ## THE UNHOLY DRAGONFLY
 
-![thedragonfly](./Assets/Screens/unholydragonfly.pngdragonfly.png)
+![thedragonfly](./Assets/Screens/unholydragonfly.png)
 
 1/ setting up the hosts
 
