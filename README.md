@@ -18,7 +18,7 @@ It includes :
 * Setting up the routers parameters
 * Adding a NAT (*Bonus*)
 
-### 1/ Hardware
+### 1 - Hardware
 
 As we know, we will need :
 * 3 PC's
@@ -28,7 +28,7 @@ As we know, we will need :
 But we will need to think our wiring before doing it, as it will be easier for us to setup if we're being consistent in our namings.
 So you select cross-cables for Router-Switch, then user normal copper wires to bind the switch to the hosts.
 
-### 2/ setting up the hosts
+### 2 - Setting up the hosts
 
 Before going into the setups, we need to think about the global addressing of our network. I chose to use 192.168.1.0/24 as my range, and I'm reserving the ten firsts slots.
 
@@ -37,11 +37,11 @@ So I go into the pc's configurations and give them :
 * a Gateway ( which is the first one, as in the convention) : 192.168.1.1
 * a local IP address to the lan card : 192.168.1.10 (PC0, 11 for PC1, 12 for PC2)
 
-### 3/ inserting good switch
+### 3 - Inserting good switch
 
 nothing to setup. really, just throw it in there. it's gonna populate the arp tables itself, like a grown boy.
 
-### 4/ adding router and configuring it
+### 4 - Adding router and configuring it
 
 This is where the fun comes. Just Configure it to give the gateway to the lan card. so in my case 192.168.1.1. the hosts will recognize it as the gateway. depending from what you have on the other side of the internet, you have to configure the other lan card with the same IP range,
 
