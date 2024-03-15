@@ -82,7 +82,7 @@ I'll add :
 
 
 
-![servers](./Assets/Screens/servers.png)
+![servers](./Assets/Screens/theservers.png)
 
 how to : same as above for net, but setup DNS and give dns to all hosts. after that, set list of names and ip in dns service. 
 
@@ -99,7 +99,7 @@ And now you can browse from your host !
 
 Network Address Translation (NAT) plays a pivotal role in network environments by concealing internal IP addresses, bolstering security against external threats. It facilitates seamless communication between private networks and the internet, crucial for safeguarding sensitive data and resources. Moreover, NAT optimizes the utilization of available IP addresses, a necessity in the face of IPv4 address depletion, ensuring sustainable network growth and functionality.
 
-![nat](./Assets/Screens/nat.png)
+![nat](./Assets/Screens/thenat.png)
 
 From a router's perspective, Network Address Translation (NAT) works by intercepting outgoing packets from devices within a local network. It then replaces the private IP addresses of these devices with the router's public IP address before forwarding them to the internet. When responses return, the router utilizes its NAT table to determine which internal device to route the traffic to based on port numbers. This process allows multiple devices within the local network to share a single public IP address, enabling secure and efficient communication with external networks.
 
