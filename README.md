@@ -52,9 +52,20 @@ In my case, I'm giving the route
 
 ---
 
-*Raports*
-
---insert rapports here--
+>*Raport*  
+>*Router>enable*  
+>*Router#*  
+>*Router#configure terminal*   
+>*Router(config)#interface FastEthernet0/0*   
+>*Router(config-if)#ip address 150.1.0.2 255.255.0.0*   
+>*Router(config-if)#*   
+>*Router(config-if)#exit*   
+>*Router(config)#interface FastEthernet1/0*   
+>*Router(config-if)#ip address 192.168.1.1 255.255.255.0*   
+>*Router(config-if)#*   
+>*Router(config-if)#exit*   
+>*Router(config)#*   
+>*Router(config)#ip route 150.0.0.0 255.0.0.0 150.1.0.1*   
 
 ---
 ![hackerpoulette](./Assets/Screens/hackerpoulette.png)
@@ -97,13 +108,10 @@ It has a table where it can remap incoming packets.
 ---
 
 
-*Rapports*
-
-*Router(config)# Ip nat inside source static 192.168.1.10 150.1.0.10*
-
-*Router(config)# Ip nat outside source static 192.168.1.10 150.1.0.10*
-
-*Router# show ip nat translations*
+>*Rapport*   
+>*Router(config)# Ip nat inside source static 192.168.1.10 150.1.0.10*   
+>*Router(config)# Ip nat outside source static 192.168.1.10 150.1.0.10*   
+>*Router# show ip nat translations*   
 
 
 ![natlist](./Assets/Screens/natlist.png)
